@@ -230,6 +230,11 @@ namespace Video_rental_assign
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void Issue_new_mov_Click(object sender, EventArgs e)
         {
             if (obj_Rent.Booking(Convert.ToInt32(Cus_RenID.Text), Convert.ToInt32(mov_RenID.Text), dtpStart.Text.ToString()))

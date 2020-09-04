@@ -15,7 +15,7 @@ namespace Video_rental_assign.Task
         //Conn Instance Object of SQl Connection Class
         SqlConnection conn;
         //String ConnectionString for Making the Connection between the Class and Database
-        String conStr = "Data Source=DESKTOP-S7ET770\\SQLEXPRESS;Initial Catalog=VideoRentalSystem;Integrated Security=True";
+        String conStr = "Data Source=DESKTOP-M80LHHH\\SQLEXPRESS;Initial Catalog=VideoRentalSystem;Integrated Security=True";
         //Cmd Instance Object to Create the Relation between  the Commad to execute the sql Command 
         SqlCommand cmd;
         // DReader is instance to read the data from the database and pass to the Class
